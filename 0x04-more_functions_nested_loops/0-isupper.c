@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-  *_isupper(c) - check the letter if it is upper
+  *_isupper - check the letter if it is upper
   *Return: 0 if it is lower . 1 if it is upper
+  *@c: char
   */
 int _isupper(char c)
 {
@@ -12,5 +13,5 @@ int _isupper(char c)
 	else
 	{
 		return (0);
-	}		
-}
+	}
+
